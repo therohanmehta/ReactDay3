@@ -1,17 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Mobile } from "./Mobile";
+import { Password } from "./password";
+import { Button } from "./button";
+import { Heading } from "./Heading";
 
 function App() {
   return (
-    <div>
-      <h2>Register Here ...</h2>
-      <input type="text" name="mobile" id="" placeholder="mobile ..."></input>
-      
-      <input type="password" name="mobile" id="" placeholder="password ..."></input>
-      
-      <button id="btn">Submit</button>
-
-    </div>
+    <form>
+      <Heading Head={"Register here ..."} />
+      <Mobile mobileNo={"Mobile ..."} />
+      <Password pwd={"Password ..."} />
+      <Button BtnName={"Submit"} />
+    </form>
   );
 }
 
