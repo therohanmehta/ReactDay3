@@ -3,7 +3,15 @@ import './App.css';
 
 function App() {
   return (
-    <h1>Demo</h1>
+    <div>
+      <h2>Register Here ...</h2>
+      <input type="text" name="mobile" id="" placeholder="mobile ..."></input>
+      
+      <input type="password" name="mobile" id="" placeholder="password ..."></input>
+      
+      <button id="btn">Submit</button>
+
+    </div>
   );
 }
 
